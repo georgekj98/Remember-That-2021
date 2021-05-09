@@ -42,6 +42,10 @@ a{
     color: #444444;
 }
 
+ul{
+    list-style: none;
+}
+
 section{
     padding: 5em 2em;
 }
@@ -88,4 +92,37 @@ section{
     width: 70%;
     margin-top: 3em;
 
+}
+
+.features-section{
+    background: #20272E;
+    color: white;
+
+    img{
+        display: none;
+    }
+
+    ul{
+        margin: 0;
+        padding-left: 0.1em;
+
+
+        li{
+            font-size: 1.1em;
+            position: relative;
+            margin-top: 1em;
+            margin-left: 2em ;
+
+            &:before{
+                content: '';
+                background-image: url('../images/bullet.svg');
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                margin-left: -2em;
+                margin-right: 0.5em;
+                background-size: contain;
+            }
+        }
+    }
 }
