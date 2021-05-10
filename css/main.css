@@ -25,6 +25,10 @@ body {
   color: var(--primary-color);
 }
 
+.navbar nav {
+  display: none;
+}
+
 .navbar .container {
   display: -webkit-box;
   display: -ms-flexbox;
